@@ -6,7 +6,18 @@
 
 - 참고: https://github.com/ggamsi0418/dart-for-beginners#readme
 
-### 1. 안드로이드 스튜디오 설치
+### 1. 구글 설정
+
+- `Ubuntu(wsl2)` 내에 `크롬`을 설치한다.
+  ![image](https://user-images.githubusercontent.com/58096698/209977325-b0e60494-bb52-4acf-af16-ec6406397e23.png)
+
+- `.zshrc` 파일에 크롬 실행 경로를 추가한다.
+  ```bash
+  # Chrome path
+  export CHROME_EXECUTABLE=/opt/google/chrome/chrome
+  ```
+
+### 2. 안드로이드 스튜디오 설치 (`현재 에뮬레이터 실행하는 것은 실패`)
 
 - 홈 디렉토리(~/ or $HOME)에 `Application 폴더` 생성 후 이동
   ```shell
@@ -41,13 +52,6 @@
   $ flutter doctor --android-licenses
   ```
 
-- 크롬 브라우저 실행 경로를 `.zshrc` 파일 안에 추가
-
-  ```bash
-  # Chrome path
-  export CHROME_EXECUTABLE=/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe
-  ```
-
 - 마지막으로 최종 확인
 
   ```shell
@@ -55,3 +59,5 @@
   ```
 
   ![image](https://user-images.githubusercontent.com/58096698/209958812-2e6fc832-5ad4-4b0d-99fc-e1cde4cf8c83.png)
+
+- 참고: https://addshore.com/2022/01/installing-android-studio-on-wsl2-for-flutter/

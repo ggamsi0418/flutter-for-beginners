@@ -1,0 +1,12 @@
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/flutter_for_beginners
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/jb/Workspace/nomad-coders/flutter_for_beginners/build/linux/x64/debug/bundle/data/flutter_assets/version.json
