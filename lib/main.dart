@@ -13,13 +13,13 @@ class App extends StatelessWidget {
         backgroundColor: const Color(0xFF181818),
         body: Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: 25,
+            horizontal: 15,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(
-                height: 80,
+                height: 60,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -31,15 +31,15 @@ class App extends StatelessWidget {
                         'Hey, Selena',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 36,
-                          fontWeight: FontWeight.w800,
+                          fontSize: 28,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                       Text(
                         'Welcome back',
                         style: TextStyle(
-                          color: Colors.white.withOpacity(0.8),
-                          fontSize: 24,
+                          color: Colors.white.withOpacity(0.6),
+                          fontSize: 18,
                         ),
                       ),
                     ],
@@ -47,31 +47,31 @@ class App extends StatelessWidget {
                 ],
               ),
               const SizedBox(
-                height: 85,
+                height: 52,
               ),
               Text(
                 'Total Balance',
                 style: TextStyle(
-                  fontSize: 28,
-                  color: Colors.white.withOpacity(0.8),
+                  fontSize: 23,
+                  color: Colors.white.withOpacity(0.5),
                 ),
               ),
               const SizedBox(
-                height: 15,
+                height: 7,
               ),
               Text(
                 '\$5 194 32',
                 style: TextStyle(
-                  fontSize: 74,
-                  fontWeight: FontWeight.w500,
-                  color: Colors.white.withOpacity(0.8),
+                  fontSize: 50,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.white.withOpacity(0.9),
                 ),
               ),
               const SizedBox(
-                height: 25,
+                height: 20,
               ),
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: const [
                   Button(
                     text: 'Transfer',
