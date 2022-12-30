@@ -1,5 +1,11 @@
 # 🚀 Flutter로 웹툰 앱 만들기
 
+## 만들어 본 것
+
+### 1. Mobile Wallet(UI)
+
+<img width=80% src="https://user-images.githubusercontent.com/58096698/210097126-a7f6ed47-e191-413d-91d9-c9c0e1b666c0.png"></img>
+
 ## ⚙ 환경 세팅 (Windows10 기준) ⚙
 
 ### 1. Flutter 버전 관리 매니저 설치
