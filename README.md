@@ -4,7 +4,11 @@
 
 ### 1. Mobile Wallet(UI)
 
-<img width=80% src="https://user-images.githubusercontent.com/58096698/210097126-a7f6ed47-e191-413d-91d9-c9c0e1b666c0.png"></img>
+<img width="80%" src="https://user-images.githubusercontent.com/58096698/210097126-a7f6ed47-e191-413d-91d9-c9c0e1b666c0.png"></img>
+
+### 2. Pomodoro App
+
+<img height="500" src="https://user-images.githubusercontent.com/58096698/210199646-7cd84afa-f6c1-4056-9c22-0d5ada6a6170.gif"></img>
 
 ## ⚙ 환경 세팅 (Windows10 기준) ⚙
 
