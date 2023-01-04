@@ -4,10 +4,11 @@ import 'package:flutter_for_beginners/models/webtoon_model.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String baseUrl = 'https://webtoon-crawler.nomadcoders.workers.dev';
-  final String today = "today";
+  static const String baseUrl =
+      'https://webtoon-crawler.nomadcoders.workers.dev';
+  static const String today = "today";
 
-  Future<List<WebtoonModel>> getTodaysToons() async {
+  static Future<List<WebtoonModel>> getTodaysToons() async {
     List<WebtoonModel> webtoonInstances = [];
     final url = Uri.parse('$baseUrl/$today');
 
@@ -20,8 +21,12 @@ class ApiService {
         for (var webtoon in webtoons) {
           webtoonInstances.add(WebtoonModel.fromJson(webtoon));
         }
-      } else if {
-        print(response.statusCode != 400 ? response.statusCode != 404 ? 'Sever Error' : 'Bad Request' : 'Not Found');
+      } else {
+        print(response.statusCode == 400
+            ? 'Bad Request'
+            : response.statusCode == 404
+                ? 'Not Found'
+                : 'Sever Error');
       }
 
       return webtoonInstances;
